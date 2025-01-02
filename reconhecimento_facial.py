@@ -2,6 +2,8 @@ import cv2
 import numpy as np
 import os
 
+
+#pip install --force-reinstall opencv-contrib-python
 # Certifique-se de instalar o pacote correto: opencv-contrib-python
 # pip install opencv-contrib-python
 
