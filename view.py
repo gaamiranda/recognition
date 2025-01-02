@@ -12,8 +12,8 @@ def abrir_explorador():
         img = img.resize((300, 200))
         img_tk = ImageTk.PhotoImage(img)
 
-        label_img.config(image=img_tk)
-        label_img.image = img_tk 
+        imagem_principal.config(image=img_tk)
+        imagem_principal.image = img_tk 
 
 janela = tk.Tk()
 janela.title("Janela")
