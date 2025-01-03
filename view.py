@@ -104,7 +104,7 @@ class ImageApp:
 			self.imagem_principal.config(image=img_tk)
 			self.imagem_principal.image = img_tk
 		else:
-			tk.messagebox.showinfo(message="Imagem não selecionada")
+			self.result_label.config(text="Imagem não selecionada")
 
 
 #inicio
